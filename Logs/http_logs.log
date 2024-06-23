@@ -1,0 +1,934 @@
+2024-06-23 18:56:43,034 | ERROR | index -1 is out of bounds for axis 0 with size 0
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 58, in metrics
+    "percentile50": percentile(latencies, 50),
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4283, in percentile
+    return _quantile_unchecked(
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4555, in _quantile_unchecked
+    return _ureduce(a,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 3823, in _ureduce
+    r = func(a, **kwargs)
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4721, in _quantile_ureduce_func
+    result = _quantile(arr,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4830, in _quantile
+    slices_having_nans = np.isnan(arr[-1, ...])
+IndexError: index -1 is out of bounds for axis 0 with size 0
+2024-06-23 18:56:44,056 | ERROR | index -1 is out of bounds for axis 0 with size 0
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 58, in metrics
+    "percentile50": percentile(latencies, 50),
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4283, in percentile
+    return _quantile_unchecked(
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4555, in _quantile_unchecked
+    return _ureduce(a,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 3823, in _ureduce
+    r = func(a, **kwargs)
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4721, in _quantile_ureduce_func
+    result = _quantile(arr,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4830, in _quantile
+    slices_having_nans = np.isnan(arr[-1, ...])
+IndexError: index -1 is out of bounds for axis 0 with size 0
+2024-06-23 18:56:44,058 | ERROR | index -1 is out of bounds for axis 0 with size 0
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 58, in metrics
+    "percentile50": percentile(latencies, 50),
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4283, in percentile
+    return _quantile_unchecked(
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4555, in _quantile_unchecked
+    return _ureduce(a,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 3823, in _ureduce
+    r = func(a, **kwargs)
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4721, in _quantile_ureduce_func
+    result = _quantile(arr,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4830, in _quantile
+    slices_having_nans = np.isnan(arr[-1, ...])
+IndexError: index -1 is out of bounds for axis 0 with size 0
+2024-06-23 18:56:44,366 | ERROR | index -1 is out of bounds for axis 0 with size 0
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 58, in metrics
+    "percentile50": percentile(latencies, 50),
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4283, in percentile
+    return _quantile_unchecked(
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4555, in _quantile_unchecked
+    return _ureduce(a,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 3823, in _ureduce
+    r = func(a, **kwargs)
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4721, in _quantile_ureduce_func
+    result = _quantile(arr,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4830, in _quantile
+    slices_having_nans = np.isnan(arr[-1, ...])
+IndexError: index -1 is out of bounds for axis 0 with size 0
+2024-06-23 18:56:49,386 | ERROR | index -1 is out of bounds for axis 0 with size 0
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 58, in metrics
+    "percentile50": percentile(latencies, 50),
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4283, in percentile
+    return _quantile_unchecked(
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4555, in _quantile_unchecked
+    return _ureduce(a,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 3823, in _ureduce
+    r = func(a, **kwargs)
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4721, in _quantile_ureduce_func
+    result = _quantile(arr,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4830, in _quantile
+    slices_having_nans = np.isnan(arr[-1, ...])
+IndexError: index -1 is out of bounds for axis 0 with size 0
+2024-06-23 18:56:49,691 | ERROR | index -1 is out of bounds for axis 0 with size 0
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 58, in metrics
+    "percentile50": percentile(latencies, 50),
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4283, in percentile
+    return _quantile_unchecked(
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4555, in _quantile_unchecked
+    return _ureduce(a,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 3823, in _ureduce
+    r = func(a, **kwargs)
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4721, in _quantile_ureduce_func
+    result = _quantile(arr,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4830, in _quantile
+    slices_having_nans = np.isnan(arr[-1, ...])
+IndexError: index -1 is out of bounds for axis 0 with size 0
+2024-06-23 18:57:09,643 | ERROR | index -1 is out of bounds for axis 0 with size 0
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 59, in metrics
+    "percentile50": percentile(latencies, 50),
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4283, in percentile
+    return _quantile_unchecked(
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4555, in _quantile_unchecked
+    return _ureduce(a,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 3823, in _ureduce
+    r = func(a, **kwargs)
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4721, in _quantile_ureduce_func
+    result = _quantile(arr,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4830, in _quantile
+    slices_having_nans = np.isnan(arr[-1, ...])
+IndexError: index -1 is out of bounds for axis 0 with size 0
+2024-06-23 18:57:39,670 | ERROR | index -1 is out of bounds for axis 0 with size 0
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 59, in metrics
+    "percentile50": percentile(latencies, 50),
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4283, in percentile
+    return _quantile_unchecked(
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4555, in _quantile_unchecked
+    return _ureduce(a,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 3823, in _ureduce
+    r = func(a, **kwargs)
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4721, in _quantile_ureduce_func
+    result = _quantile(arr,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4830, in _quantile
+    slices_having_nans = np.isnan(arr[-1, ...])
+IndexError: index -1 is out of bounds for axis 0 with size 0
+2024-06-23 18:57:39,671 | ERROR | index -1 is out of bounds for axis 0 with size 0
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 59, in metrics
+    "percentile50": percentile(latencies, 50),
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4283, in percentile
+    return _quantile_unchecked(
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4555, in _quantile_unchecked
+    return _ureduce(a,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 3823, in _ureduce
+    r = func(a, **kwargs)
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4721, in _quantile_ureduce_func
+    result = _quantile(arr,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4830, in _quantile
+    slices_having_nans = np.isnan(arr[-1, ...])
+IndexError: index -1 is out of bounds for axis 0 with size 0
+2024-06-23 18:57:39,974 | ERROR | index -1 is out of bounds for axis 0 with size 0
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 59, in metrics
+    "percentile50": percentile(latencies, 50),
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4283, in percentile
+    return _quantile_unchecked(
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4555, in _quantile_unchecked
+    return _ureduce(a,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 3823, in _ureduce
+    r = func(a, **kwargs)
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4721, in _quantile_ureduce_func
+    result = _quantile(arr,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4830, in _quantile
+    slices_having_nans = np.isnan(arr[-1, ...])
+IndexError: index -1 is out of bounds for axis 0 with size 0
+2024-06-23 18:58:40,303 | ERROR | index -1 is out of bounds for axis 0 with size 0
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 59, in metrics
+    "percentile50": percentile(latencies, 50),
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4283, in percentile
+    return _quantile_unchecked(
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4555, in _quantile_unchecked
+    return _ureduce(a,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 3823, in _ureduce
+    r = func(a, **kwargs)
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4721, in _quantile_ureduce_func
+    result = _quantile(arr,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4830, in _quantile
+    slices_having_nans = np.isnan(arr[-1, ...])
+IndexError: index -1 is out of bounds for axis 0 with size 0
+2024-06-23 19:03:46,319 | ERROR | index -1 is out of bounds for axis 0 with size 0
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 59, in metrics
+    def main() -> None:
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4283, in percentile
+    return _quantile_unchecked(
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4555, in _quantile_unchecked
+    return _ureduce(a,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 3823, in _ureduce
+    r = func(a, **kwargs)
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4721, in _quantile_ureduce_func
+    result = _quantile(arr,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4830, in _quantile
+    slices_having_nans = np.isnan(arr[-1, ...])
+IndexError: index -1 is out of bounds for axis 0 with size 0
+2024-06-23 19:09:55,670 | ERROR | 'function' object has no attribute 'generate_metrics'
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 53, in metrics
+    body=str(metrics.generate_metrics()).encode())
+AttributeError: 'function' object has no attribute 'generate_metrics'
+2024-06-23 19:10:44,304 | ERROR | 'tuple' object has no attribute 'append'
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 53, in metrics_request
+    body=str(metrics.generate_metrics()).encode())
+  File "D:\Python\ForterExercise\metrics.py", line 30, in generate_metrics
+    latencies.append(latency)
+AttributeError: 'tuple' object has no attribute 'append'
+2024-06-23 19:11:08,350 | ERROR | LatencyDatabase.add_latency() missing 1 required positional argument: 'vendor'
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 53, in metrics_request
+    body=str(metrics.generate_metrics()).encode())
+  File "D:\Python\ForterExercise\metrics.py", line 31, in generate_metrics
+    global_vars.ApiVars.database.add_latency(latency)
+TypeError: LatencyDatabase.add_latency() missing 1 required positional argument: 'vendor'
+2024-06-23 19:11:20,952 | ERROR | unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 53, in metrics_request
+    body=str(metrics.generate_metrics()).encode())
+  File "D:\Python\ForterExercise\metrics.py", line 33, in generate_metrics
+    "percentile50": percentile(latencies, 50),
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4283, in percentile
+    return _quantile_unchecked(
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4555, in _quantile_unchecked
+    return _ureduce(a,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 3823, in _ureduce
+    r = func(a, **kwargs)
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4721, in _quantile_ureduce_func
+    result = _quantile(arr,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4840, in _quantile
+    result = _lerp(previous,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4655, in _lerp
+    diff_b_a = subtract(b, a)
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+2024-06-23 19:12:18,900 | ERROR | unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 53, in metrics_request
+    body=str(metrics.generate_metrics()).encode())
+  File "D:\Python\ForterExercise\metrics.py", line 35, in generate_metrics
+    "percentile50": percentile(latencies, 50),
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4283, in percentile
+    return _quantile_unchecked(
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4555, in _quantile_unchecked
+    return _ureduce(a,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 3823, in _ureduce
+    r = func(a, **kwargs)
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4721, in _quantile_ureduce_func
+    result = _quantile(arr,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4840, in _quantile
+    result = _lerp(previous,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4655, in _lerp
+    diff_b_a = subtract(b, a)
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+2024-06-23 19:12:31,914 | ERROR | unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 53, in metrics_request
+    body=str(metrics.generate_metrics()).encode())
+  File "D:\Python\ForterExercise\metrics.py", line 35, in generate_metrics
+    "percentile50": percentile(latencies, 50),
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4283, in percentile
+    return _quantile_unchecked(
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4555, in _quantile_unchecked
+    return _ureduce(a,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 3823, in _ureduce
+    r = func(a, **kwargs)
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4721, in _quantile_ureduce_func
+    result = _quantile(arr,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4840, in _quantile
+    result = _lerp(previous,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4655, in _lerp
+    diff_b_a = subtract(b, a)
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+2024-06-23 19:12:42,898 | ERROR | unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 53, in metrics_request
+    body=str(metrics.generate_metrics()).encode())
+  File "D:\Python\ForterExercise\metrics.py", line 36, in generate_metrics
+    "percentile50": percentile(latencies, 50),
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4283, in percentile
+    return _quantile_unchecked(
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4555, in _quantile_unchecked
+    return _ureduce(a,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 3823, in _ureduce
+    r = func(a, **kwargs)
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4721, in _quantile_ureduce_func
+    result = _quantile(arr,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4840, in _quantile
+    result = _lerp(previous,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4655, in _lerp
+    diff_b_a = subtract(b, a)
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+2024-06-23 19:14:41,247 | ERROR | unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 53, in metrics_request
+    body=str(metrics.generate_metrics()).encode())
+  File "D:\Python\ForterExercise\metrics.py", line 36, in generate_metrics
+    "percentile50": percentile(latencies, 50),
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4283, in percentile
+    return _quantile_unchecked(
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4555, in _quantile_unchecked
+    return _ureduce(a,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 3823, in _ureduce
+    r = func(a, **kwargs)
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4721, in _quantile_ureduce_func
+    result = _quantile(arr,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4840, in _quantile
+    result = _lerp(previous,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4655, in _lerp
+    diff_b_a = subtract(b, a)
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+2024-06-23 19:14:42,618 | ERROR | unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 53, in metrics_request
+    body=str(metrics.generate_metrics()).encode())
+  File "D:\Python\ForterExercise\metrics.py", line 36, in generate_metrics
+    "percentile50": percentile(latencies, 50),
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4283, in percentile
+    return _quantile_unchecked(
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4555, in _quantile_unchecked
+    return _ureduce(a,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 3823, in _ureduce
+    r = func(a, **kwargs)
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4721, in _quantile_ureduce_func
+    result = _quantile(arr,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4840, in _quantile
+    result = _lerp(previous,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4655, in _lerp
+    diff_b_a = subtract(b, a)
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+2024-06-23 19:14:42,940 | ERROR | unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 53, in metrics_request
+    body=str(metrics.generate_metrics()).encode())
+  File "D:\Python\ForterExercise\metrics.py", line 36, in generate_metrics
+    "percentile50": percentile(latencies, 50),
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4283, in percentile
+    return _quantile_unchecked(
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4555, in _quantile_unchecked
+    return _ureduce(a,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 3823, in _ureduce
+    r = func(a, **kwargs)
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4721, in _quantile_ureduce_func
+    result = _quantile(arr,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4840, in _quantile
+    result = _lerp(previous,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4655, in _lerp
+    diff_b_a = subtract(b, a)
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+2024-06-23 19:14:43,579 | ERROR | unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 53, in metrics_request
+    body=str(metrics.generate_metrics()).encode())
+  File "D:\Python\ForterExercise\metrics.py", line 36, in generate_metrics
+    "percentile50": percentile(latencies, 50),
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4283, in percentile
+    return _quantile_unchecked(
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4555, in _quantile_unchecked
+    return _ureduce(a,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 3823, in _ureduce
+    r = func(a, **kwargs)
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4721, in _quantile_ureduce_func
+    result = _quantile(arr,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4840, in _quantile
+    result = _lerp(previous,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4655, in _lerp
+    diff_b_a = subtract(b, a)
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+2024-06-23 19:14:48,939 | ERROR | unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 53, in metrics_request
+    body=str(metrics.generate_metrics()).encode())
+  File "D:\Python\ForterExercise\metrics.py", line 36, in generate_metrics
+    "percentile50": percentile(latencies, 50),
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4283, in percentile
+    return _quantile_unchecked(
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4555, in _quantile_unchecked
+    return _ureduce(a,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 3823, in _ureduce
+    r = func(a, **kwargs)
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4721, in _quantile_ureduce_func
+    result = _quantile(arr,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4840, in _quantile
+    result = _lerp(previous,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4655, in _lerp
+    diff_b_a = subtract(b, a)
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+2024-06-23 19:14:49,262 | ERROR | unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 53, in metrics_request
+    body=str(metrics.generate_metrics()).encode())
+  File "D:\Python\ForterExercise\metrics.py", line 36, in generate_metrics
+    "percentile50": percentile(latencies, 50),
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4283, in percentile
+    return _quantile_unchecked(
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4555, in _quantile_unchecked
+    return _ureduce(a,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 3823, in _ureduce
+    r = func(a, **kwargs)
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4721, in _quantile_ureduce_func
+    result = _quantile(arr,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4840, in _quantile
+    result = _lerp(previous,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4655, in _lerp
+    diff_b_a = subtract(b, a)
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+2024-06-23 19:14:49,878 | ERROR | unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 53, in metrics_request
+    body=str(metrics.generate_metrics()).encode())
+  File "D:\Python\ForterExercise\metrics.py", line 36, in generate_metrics
+    "percentile50": percentile(latencies, 50),
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4283, in percentile
+    return _quantile_unchecked(
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4555, in _quantile_unchecked
+    return _ureduce(a,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 3823, in _ureduce
+    r = func(a, **kwargs)
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4721, in _quantile_ureduce_func
+    result = _quantile(arr,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4840, in _quantile
+    result = _lerp(previous,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4655, in _lerp
+    diff_b_a = subtract(b, a)
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+2024-06-23 19:15:21,878 | ERROR | unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 53, in metrics_request
+    body=str(metrics.generate_metrics()).encode())
+  File "D:\Python\ForterExercise\metrics.py", line 37, in generate_metrics
+    "percentile50": percentile(latencies, 50),
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4283, in percentile
+    return _quantile_unchecked(
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4555, in _quantile_unchecked
+    return _ureduce(a,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 3823, in _ureduce
+    r = func(a, **kwargs)
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4721, in _quantile_ureduce_func
+    result = _quantile(arr,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4840, in _quantile
+    result = _lerp(previous,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4655, in _lerp
+    diff_b_a = subtract(b, a)
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+2024-06-23 19:15:22,204 | ERROR | unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 53, in metrics_request
+    body=str(metrics.generate_metrics()).encode())
+  File "D:\Python\ForterExercise\metrics.py", line 37, in generate_metrics
+    "percentile50": percentile(latencies, 50),
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4283, in percentile
+    return _quantile_unchecked(
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4555, in _quantile_unchecked
+    return _ureduce(a,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 3823, in _ureduce
+    r = func(a, **kwargs)
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4721, in _quantile_ureduce_func
+    result = _quantile(arr,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4840, in _quantile
+    result = _lerp(previous,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4655, in _lerp
+    diff_b_a = subtract(b, a)
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+2024-06-23 19:15:22,525 | ERROR | unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 53, in metrics_request
+    body=str(metrics.generate_metrics()).encode())
+  File "D:\Python\ForterExercise\metrics.py", line 37, in generate_metrics
+    "percentile50": percentile(latencies, 50),
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4283, in percentile
+    return _quantile_unchecked(
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4555, in _quantile_unchecked
+    return _ureduce(a,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 3823, in _ureduce
+    r = func(a, **kwargs)
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4721, in _quantile_ureduce_func
+    result = _quantile(arr,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4840, in _quantile
+    result = _lerp(previous,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4655, in _lerp
+    diff_b_a = subtract(b, a)
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+2024-06-23 19:15:23,155 | ERROR | unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 53, in metrics_request
+    body=str(metrics.generate_metrics()).encode())
+  File "D:\Python\ForterExercise\metrics.py", line 37, in generate_metrics
+    "percentile50": percentile(latencies, 50),
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4283, in percentile
+    return _quantile_unchecked(
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4555, in _quantile_unchecked
+    return _ureduce(a,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 3823, in _ureduce
+    r = func(a, **kwargs)
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4721, in _quantile_ureduce_func
+    result = _quantile(arr,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4840, in _quantile
+    result = _lerp(previous,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4655, in _lerp
+    diff_b_a = subtract(b, a)
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+2024-06-23 19:15:24,518 | ERROR | unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 53, in metrics_request
+    body=str(metrics.generate_metrics()).encode())
+  File "D:\Python\ForterExercise\metrics.py", line 37, in generate_metrics
+    "percentile50": percentile(latencies, 50),
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4283, in percentile
+    return _quantile_unchecked(
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4555, in _quantile_unchecked
+    return _ureduce(a,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 3823, in _ureduce
+    r = func(a, **kwargs)
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4721, in _quantile_ureduce_func
+    result = _quantile(arr,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4840, in _quantile
+    result = _lerp(previous,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4655, in _lerp
+    diff_b_a = subtract(b, a)
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+2024-06-23 19:15:24,847 | ERROR | unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 53, in metrics_request
+    body=str(metrics.generate_metrics()).encode())
+  File "D:\Python\ForterExercise\metrics.py", line 37, in generate_metrics
+    "percentile50": percentile(latencies, 50),
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4283, in percentile
+    return _quantile_unchecked(
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4555, in _quantile_unchecked
+    return _ureduce(a,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 3823, in _ureduce
+    r = func(a, **kwargs)
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4721, in _quantile_ureduce_func
+    result = _quantile(arr,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4840, in _quantile
+    result = _lerp(previous,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4655, in _lerp
+    diff_b_a = subtract(b, a)
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+2024-06-23 19:15:25,615 | ERROR | unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 53, in metrics_request
+    body=str(metrics.generate_metrics()).encode())
+  File "D:\Python\ForterExercise\metrics.py", line 37, in generate_metrics
+    "percentile50": percentile(latencies, 50),
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4283, in percentile
+    return _quantile_unchecked(
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4555, in _quantile_unchecked
+    return _ureduce(a,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 3823, in _ureduce
+    r = func(a, **kwargs)
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4721, in _quantile_ureduce_func
+    result = _quantile(arr,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4840, in _quantile
+    result = _lerp(previous,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4655, in _lerp
+    diff_b_a = subtract(b, a)
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+2024-06-23 19:15:30,962 | ERROR | unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 53, in metrics_request
+    body=str(metrics.generate_metrics()).encode())
+  File "D:\Python\ForterExercise\metrics.py", line 37, in generate_metrics
+    "percentile50": percentile(latencies, 50),
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4283, in percentile
+    return _quantile_unchecked(
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4555, in _quantile_unchecked
+    return _ureduce(a,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 3823, in _ureduce
+    r = func(a, **kwargs)
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4721, in _quantile_ureduce_func
+    result = _quantile(arr,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4840, in _quantile
+    result = _lerp(previous,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4655, in _lerp
+    diff_b_a = subtract(b, a)
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+2024-06-23 19:15:31,305 | ERROR | unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 53, in metrics_request
+    body=str(metrics.generate_metrics()).encode())
+  File "D:\Python\ForterExercise\metrics.py", line 37, in generate_metrics
+    "percentile50": percentile(latencies, 50),
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4283, in percentile
+    return _quantile_unchecked(
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4555, in _quantile_unchecked
+    return _ureduce(a,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 3823, in _ureduce
+    r = func(a, **kwargs)
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4721, in _quantile_ureduce_func
+    result = _quantile(arr,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4840, in _quantile
+    result = _lerp(previous,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4655, in _lerp
+    diff_b_a = subtract(b, a)
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+2024-06-23 19:15:31,948 | ERROR | unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 53, in metrics_request
+    body=str(metrics.generate_metrics()).encode())
+  File "D:\Python\ForterExercise\metrics.py", line 37, in generate_metrics
+    "percentile50": percentile(latencies, 50),
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4283, in percentile
+    return _quantile_unchecked(
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4555, in _quantile_unchecked
+    return _ureduce(a,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 3823, in _ureduce
+    r = func(a, **kwargs)
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4721, in _quantile_ureduce_func
+    result = _quantile(arr,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4840, in _quantile
+    result = _lerp(previous,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4655, in _lerp
+    diff_b_a = subtract(b, a)
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+2024-06-23 19:16:02,295 | ERROR | unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 53, in metrics_request
+    body=str(metrics.generate_metrics()).encode())
+  File "D:\Python\ForterExercise\metrics.py", line 37, in generate_metrics
+    "percentile50": percentile(latencies, 50),
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4283, in percentile
+    return _quantile_unchecked(
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4555, in _quantile_unchecked
+    return _ureduce(a,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 3823, in _ureduce
+    r = func(a, **kwargs)
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4721, in _quantile_ureduce_func
+    result = _quantile(arr,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4840, in _quantile
+    result = _lerp(previous,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4655, in _lerp
+    diff_b_a = subtract(b, a)
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+2024-06-23 19:16:02,627 | ERROR | unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 53, in metrics_request
+    body=str(metrics.generate_metrics()).encode())
+  File "D:\Python\ForterExercise\metrics.py", line 37, in generate_metrics
+    "percentile50": percentile(latencies, 50),
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4283, in percentile
+    return _quantile_unchecked(
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4555, in _quantile_unchecked
+    return _ureduce(a,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 3823, in _ureduce
+    r = func(a, **kwargs)
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4721, in _quantile_ureduce_func
+    result = _quantile(arr,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4840, in _quantile
+    result = _lerp(previous,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4655, in _lerp
+    diff_b_a = subtract(b, a)
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+2024-06-23 19:16:03,272 | ERROR | unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 53, in metrics_request
+    body=str(metrics.generate_metrics()).encode())
+  File "D:\Python\ForterExercise\metrics.py", line 37, in generate_metrics
+    "percentile50": percentile(latencies, 50),
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4283, in percentile
+    return _quantile_unchecked(
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4555, in _quantile_unchecked
+    return _ureduce(a,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 3823, in _ureduce
+    r = func(a, **kwargs)
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4721, in _quantile_ureduce_func
+    result = _quantile(arr,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4840, in _quantile
+    result = _lerp(previous,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4655, in _lerp
+    diff_b_a = subtract(b, a)
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+2024-06-23 19:19:31,538 | ERROR | unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 53, in metrics_request
+    body=str(metrics.generate_metrics()).encode())
+  File "D:\Python\ForterExercise\metrics.py", line 38, in generate_metrics
+    "percentile50": percentile(latencies, 50),
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4283, in percentile
+    return _quantile_unchecked(
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4555, in _quantile_unchecked
+    return _ureduce(a,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 3823, in _ureduce
+    r = func(a, **kwargs)
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4721, in _quantile_ureduce_func
+    result = _quantile(arr,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4840, in _quantile
+    result = _lerp(previous,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4655, in _lerp
+    diff_b_a = subtract(b, a)
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+2024-06-23 19:20:21,109 | ERROR | unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 53, in metrics_request
+    body=str(metrics.generate_metrics()).encode())
+  File "D:\Python\ForterExercise\metrics.py", line 39, in generate_metrics
+    "percentile50": percentile(tmp_latencies, 50),
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4283, in percentile
+    return _quantile_unchecked(
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4555, in _quantile_unchecked
+    return _ureduce(a,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 3823, in _ureduce
+    r = func(a, **kwargs)
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4721, in _quantile_ureduce_func
+    result = _quantile(arr,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4840, in _quantile
+    result = _lerp(previous,
+  File "C:\Users\ophir\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\numpy\lib\function_base.py", line 4655, in _lerp
+    diff_b_a = subtract(b, a)
+TypeError: unsupported operand type(s) for -: 'NoneType' and 'NoneType'
+2024-06-23 19:21:27,807 | ERROR | 0
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 36, in get_ip_country_request
+    search_result = gic(request.SRC)
+  File "D:\Python\ForterExercise\get_ip_country.py", line 40, in get_ip_country
+    vendor = global_vars.ApiConsts.VENDORS[0]
+KeyError: 0
+2024-06-23 19:21:28,836 | ERROR | 0
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 36, in get_ip_country_request
+    search_result = gic(request.SRC)
+  File "D:\Python\ForterExercise\get_ip_country.py", line 40, in get_ip_country
+    vendor = global_vars.ApiConsts.VENDORS[0]
+KeyError: 0
+2024-06-23 19:21:28,837 | ERROR | 0
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 36, in get_ip_country_request
+    search_result = gic(request.SRC)
+  File "D:\Python\ForterExercise\get_ip_country.py", line 40, in get_ip_country
+    vendor = global_vars.ApiConsts.VENDORS[0]
+KeyError: 0
+2024-06-23 19:21:29,140 | ERROR | 0
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 36, in get_ip_country_request
+    search_result = gic(request.SRC)
+  File "D:\Python\ForterExercise\get_ip_country.py", line 40, in get_ip_country
+    vendor = global_vars.ApiConsts.VENDORS[0]
+KeyError: 0
+2024-06-23 19:21:34,154 | ERROR | 0
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 36, in get_ip_country_request
+    search_result = gic(request.SRC)
+  File "D:\Python\ForterExercise\get_ip_country.py", line 40, in get_ip_country
+    vendor = global_vars.ApiConsts.VENDORS[0]
+KeyError: 0
+2024-06-23 19:21:34,461 | ERROR | 0
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 36, in get_ip_country_request
+    search_result = gic(request.SRC)
+  File "D:\Python\ForterExercise\get_ip_country.py", line 40, in get_ip_country
+    vendor = global_vars.ApiConsts.VENDORS[0]
+KeyError: 0
+2024-06-23 19:21:57,031 | ERROR | 'dict_keys' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Python\ForterExercise\http_lib\app.py", line 208, in run
+    self.__handle_client(message, notified_socket)
+  File "D:\Python\ForterExercise\http_lib\app.py", line 130, in __handle_client
+    response = self.routes[request.URI][0](request)
+  File "D:\Python\ForterExercise\main.py", line 36, in get_ip_country_request
+    search_result = gic(request.SRC)
+  File "D:\Python\ForterExercise\get_ip_country.py", line 40, in get_ip_country
+    vendor = global_vars.ApiConsts.VENDORS.keys()[0]
+TypeError: 'dict_keys' object is not subscriptable
